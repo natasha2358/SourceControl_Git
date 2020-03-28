@@ -19,7 +19,7 @@ namespace SourceControl_Git
 
         public void PrintPerson()
         {
-             Console.WriteLine("Hello from "+this.Name;
+             Console.WriteLine("Hello from "+ this.Name + "I am "+ this.Age + "years old!");
         }
     }
 
