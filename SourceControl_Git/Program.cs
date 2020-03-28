@@ -13,6 +13,8 @@ namespace SourceControl_Git
 
             Person p = new Person("Natasha", 21);
             Person a = new Person("Sara", 19);
+            Person b = new Person("Daniela", 49);
+            b.PrintPerson();
             p.PrintPerson();
             a.PrintPerson();
         }
