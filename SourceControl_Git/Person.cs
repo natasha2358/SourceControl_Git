@@ -17,9 +17,9 @@ namespace SourceControl_Git
             Age = age;
         }
 
-        public string PrintPerson()
+        public void PrintPerson()
         {
-            return this.Name + this.Age;
+             Console.WriteLine("Hello from "+this.Name;
         }
     }
 
