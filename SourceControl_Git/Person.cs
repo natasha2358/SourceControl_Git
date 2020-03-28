@@ -21,7 +21,7 @@ namespace SourceControl_Git
         {
             if(this.Age < 30)
             {
-                Console.WriteLine("Hi, " + this.Name + "you are young.");
+                Console.WriteLine("Hi, " + this.Name + " you are young.");
             }
             else
             {

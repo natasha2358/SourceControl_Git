@@ -12,5 +12,10 @@ namespace SourceControl_Git
         {
             return x + y + 25;
         }
+        public void SecondMethodFromSecondClass(int x, int y, int z)
+        {
+            int r = x - y - z;
+            Console.WriteLine(r);
+        }
     }
 }

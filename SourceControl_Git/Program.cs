@@ -15,10 +15,13 @@ namespace SourceControl_Git
             Person a = new Person("Sara", 19);
             Person b = new Person("Daniela", 49);
             Second c = new Second();
-            c.FirstMethodFromSecondClass(3, 7);
+            int data = c.FirstMethodFromSecondClass(3, 7);
+            Console.WriteLine(data);
+            c.SecondMethodFromSecondClass(5, 1, 2);
             b.PrintPerson();
             p.PrintPerson();
             a.PrintPerson();
+            Console.ReadKey();
         }
     }
 }
