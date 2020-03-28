@@ -19,8 +19,11 @@ namespace SourceControl_Git
             Console.WriteLine(data);
             c.SecondMethodFromSecondClass(5, 1, 2);
             b.PrintPerson();
-            p.PrintPerson();
+            p.MethodForThirdBranch();
             a.PrintPerson();
+           int x=  c.FirstMethodFromThirdClass(6,3);
+            Console.WriteLine(x);
+
             Console.ReadKey();
         }
     }

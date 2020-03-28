@@ -17,6 +17,12 @@ namespace SourceControl_Git
             Age = age;
         }
 
+        public void MethodForThirdBranch()
+        {
+            Console.WriteLine("I am created in the last request of the homework");
+        }
+
+
         public void PrintPerson()
         {
             if(this.Age < 30)

@@ -17,5 +17,9 @@ namespace SourceControl_Git
             int r = x - y - z;
             Console.WriteLine(r);
         }
+        public int FirstMethodFromThirdClass(int x, int y)
+        {
+            return x / y;
+        }
     }
 }
