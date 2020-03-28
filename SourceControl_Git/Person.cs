@@ -19,7 +19,15 @@ namespace SourceControl_Git
 
         public void PrintPerson()
         {
-             Console.WriteLine("Hi, "+this.Name);
+            if(this.Age < 30)
+            {
+                Console.WriteLine("Hi, " + this.Name + "you are young.");
+            }
+            else
+            {
+                Console.WriteLine("Hi, " + this.Name+ " you old :(" );
+            }
+    
         }
     }
 
